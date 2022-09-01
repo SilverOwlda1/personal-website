@@ -8,3 +8,9 @@
   margin-right: 50px;
   padding-left: 50px;
 }
+
+@media (max-width: 750px) {
+  .orbit-list {
+    grid-template-columns: 1fr;
+  }
+}
