@@ -9,9 +9,5 @@ html {
 
 .custom-glowscript {
   background-color: rgb(66, 63, 63);
-}
-
-canvas {
-  width: 1fr;
-  height: 1fr;
+  z-index: 90;
 }

@@ -45,29 +45,6 @@
     const G = 6.67e-11;
     const re = 6371000.0;
 
-    // let b1 = sphere({
-    //   pos: vec((16)["-u"]()["*"](re), 0, 0),
-    //   radius: re,
-    //   color: color.blue,
-    //   make_trail: false,
-    // });
-    // let b2 = sphere({
-    //   pos: vec((16)["*"](re), 0, 0),
-    //   radius: (1.5)["*"](re),
-    //   color: color.white,
-    //   make_trail: false,
-    // });
-    // let b3 = sphere({
-    //   pos: vec(0, (16)["*"](re), 0),
-    //   radius: (2)["*"](re),
-    //   color: color.red,
-    //   make_trail: false,
-    // });
-
-    // let bodies = [b1, b2, b3];
-    // let masses = [5.97e23, 5.97e23, 5.97e23];
-    // let v0s = [vec(0.0, 0.0, 0.0), vec(0.0, 0.0, 0.0), vec(0.0, 0.0, 0.0)];
-
     let focusBody = 0;
 
     for (let i = 0; i["<"](bodies.length); i++) {
