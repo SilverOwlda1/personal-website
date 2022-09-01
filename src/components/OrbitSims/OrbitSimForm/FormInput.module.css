@@ -1,0 +1,37 @@
+.form-input-container {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.form-input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.form-input-container input {
+  margin-left: 0px;
+  margin-top: 2px;
+  font-family: Roboto, Arial;
+  border: none;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.form-input-container label {
+  margin-right: 0px;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 15px;
+}
+
+.form-input p {
+  color: white;
+  font-family: Roboto, Arial;
+  margin-left: 5px;
+}

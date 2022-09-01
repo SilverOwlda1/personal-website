@@ -1,0 +1,37 @@
+.planet-list-item {
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+  background-color: gray;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.planet-list-item p {
+  font-size: 10px;
+  font-family: Roboto, Arial;
+}
+
+.planet-list-item button {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-family: Roboto, Arial;
+  font-weight: bold;
+  justify-content: center;
+  transition: height, width, border-radius, opacity, 0.15s;
+}
+
+.planet-list-item button:hover {
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  opacity: 0.97;
+}
