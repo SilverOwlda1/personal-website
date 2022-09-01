@@ -1,6 +1,6 @@
 //import celestialBodies from "./components/OrbitSims/OrbitSimDisplay/OrbitSimDisplay";
 
-//START JAVASCRIP
+//START JAVASCRIPT
 
 (function () {
   async function __main__() {
