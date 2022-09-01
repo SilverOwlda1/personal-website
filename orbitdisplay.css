@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(66, 63, 63);
+  margin: 0;
+}
+
+html {
+  background-color: rgb(66, 63, 63);
+}
+
+.custom-glowscript {
+  background-color: rgb(66, 63, 63);
+}
+
+canvas {
+  width: 1fr;
+  height: 1fr;
+}
